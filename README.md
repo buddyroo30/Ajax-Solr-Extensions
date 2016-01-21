@@ -9,3 +9,5 @@ Extensions to the Ajax-Solr JavaScript framework for creating search user interf
 ![Image of RangeWidget](http://biogit.pri.bms.com/github-enterprise-assets/0000/0031/0000/0005/380ac4e6-beb2-11e5-9f17-0b85035b7d98.png)
 * **ResultWidget.js**
 I created an enhanced version of Ajax-Solr's ResultWidget.js that supports contextual highlighted matches (using [Solr's highlighting functionality](https://wiki.apache.org/solr/HighlightingParameters)) and NOT showing the entire result set before any search is entered (which can be confusing, i.e. "why am I getting results when I haven't even entered a search yet??"). Note that a small change to PagerWidget.js was also needed for not showing the entire result set before any query is entered. Here is a screen snapshot showing highlighting snippets: ![Image of highlighting snippets](http://biogit.pri.bms.com/github-enterprise-assets/0000/0031/0000/0007/54bc30a4-bebf-11e5-9add-360e02bde3fb.png)
+
+[Here](http://biogit.pri.bms.com/pages/smitha26/Ajax-Solr-Extensions/) is a demo site (for the same reuters index used by Ajax-Solr) showing the MultiSelectWidget.js and ResultWidget.js.
